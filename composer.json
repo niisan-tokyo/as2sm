@@ -1,0 +1,25 @@
+{
+    "name": "niisan-tokyo/as2sm",
+    "description": "The library for writing asynchronous process by synchronous manner motivated by 'co' in node.js",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "niisan-tokyo",
+            "email": "niikura23@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "NiisanTokyo\\As2sm\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "react/react": "^0.4.2"
+    },
+    "require-dev": {
+        "atoum/atoum": "^2.5",
+        "phpmd/phpmd": "@stable"
+    }
+}
